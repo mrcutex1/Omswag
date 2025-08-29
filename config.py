@@ -40,15 +40,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/mrcutex1/riyumusic",
+    "https://github.com/mrcutex1/Omswag",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/stranger_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kavya9109")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Kavya9109")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -88,22 +88,22 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://ibb.co/B5xPnhGC",
-                 "https://ibb.co/B5xPnhGC",]
+START_IMG_URL = ["https://envs.sh/ILZ.jpg",
+                 "https://envs.sh/ILZ.jpg",]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://ibb.co/B5xPnhGC"
+    "PING_IMG_URL", "https://envs.sh/ILZ.jpg"
 )
-PLAYLIST_IMG_URL = "https://ibb.co/B5xPnhGC"
-STATS_IMG_URL = "https://ibb.co/B5xPnhGC"
-TELEGRAM_AUDIO_URL = "https://ibb.co/B5xPnhGC"
-TELEGRAM_VIDEO_URL = "https://ibb.co/B5xPnhGC"
-STREAM_IMG_URL = "https://ibb.co/B5xPnhGC"
-SOUNCLOUD_IMG_URL = "https://ibb.co/B5xPnhGC"
-YOUTUBE_IMG_URL = "https://ibb.co/B5xPnhGC"
-SPOTIFY_ARTIST_IMG_URL = "https://ibb.co/B5xPnhGC"
-SPOTIFY_ALBUM_IMG_URL = "https://ibb.co/B5xPnhGC"
-SPOTIFY_PLAYLIST_IMG_URL = "https://ibb.co/B5xPnhGC"
+PLAYLIST_IMG_URL = "https://envs.sh/ILZ.jpg"
+STATS_IMG_URL = "https://envs.sh/ILZ.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/ILZ.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/ILZ.jpg"
+STREAM_IMG_URL = "https://envs.sh/ILZ.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/ILZ.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/ILZ.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/ILZ.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/ILZ.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/ILZ.jpg"
 
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
